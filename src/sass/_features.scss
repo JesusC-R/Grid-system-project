@@ -4,7 +4,7 @@
 
 	display: grid;
 	// the auto-fit property makes the layout responsive.
-	// this property must be used ith minmax function.
+	// this property must be used with minmax function.
 	grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
 	grid-gap: 6rem;
 }
