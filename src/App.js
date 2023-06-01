@@ -1,7 +1,7 @@
 import "./sass/main.scss";
 import Navigation from "./components/Navigation";
 import Header from "./components/Header";
-import Relators from "./components/Relators";
+import Realtors from "./components/Realtors";
 import Features from "./components/Features";
 import StoryPicture from "./components/Stories/StoryPicture";
 import StoryComponent from "./components/Stories/StoryContent";
@@ -14,7 +14,7 @@ function App() {
     <div className="container">
       <Navigation />
       <Header />
-      <Relators />
+      <Realtors />
       <Features />
       <StoryPicture /> 
       <StoryComponent />
